@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.1" pages="2">
+  <diagram name="Page-1" id="d3pLgHHzo1MW56ydzrKs">
+    <mxGraphModel dx="872" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-1" value="Backend API (NestJS)" style="shape=cloud;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="370" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-2" value="AI Engine (Python)" style="shape=ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="365" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-3" value="PostgreSQL DB" style="shape=cylinder;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="50" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-4" value="AWS S3 Storage" style="shape=cylinder;whiteSpace=wrap;html=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="30" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-5" value="Firebase Auth" style="shape=shield;whiteSpace=wrap;html=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="650" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-6" value="Firebase Cloud Messaging" style="shape=message;whiteSpace=wrap;html=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="720" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-7" value="Admin Dashboard (Electron)" style="shape=display;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="300" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-8" value="Android Agent (Kotlin)" style="shape=mobile;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="30" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-9" value="Windows Agent (C#)" style="shape=laptop;whiteSpace=wrap;html=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="610" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-10" value="API Requests" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-8" target="tGRh8KgiZcb60pyQWfZX-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-11" value="API Requests" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-9" target="tGRh8KgiZcb60pyQWfZX-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="440" as="sourcePoint" />
+            <mxPoint x="520" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-12" value="Reads/Writes Data" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-1" target="tGRh8KgiZcb60pyQWfZX-3" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="140" as="sourcePoint" />
+            <mxPoint x="260" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-13" value="Stores Files" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-1" target="tGRh8KgiZcb60pyQWfZX-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="260" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-14" value="Sends Activity Logs" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-1" target="tGRh8KgiZcb60pyQWfZX-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="400" y="180" as="sourcePoint" />
+            <mxPoint x="400" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-15" value="Sends Anomaly Alerts" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-2" target="tGRh8KgiZcb60pyQWfZX-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-16" value="Push Notifications" style="endArrow=classic;html=1;rounded=0;fontSize=12;" parent="1" source="tGRh8KgiZcb60pyQWfZX-6" target="tGRh8KgiZcb60pyQWfZX-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="460" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-17" value="Authentication" style="endArrow=classic;html=1;rounded=0;fontSize=12;dashed=1;" parent="1" source="tGRh8KgiZcb60pyQWfZX-1" target="tGRh8KgiZcb60pyQWfZX-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="140" as="sourcePoint" />
+            <mxPoint x="600" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-18" value="Authentication" style="endArrow=classic;html=1;rounded=0;fontSize=12;dashed=1;" parent="1" source="tGRh8KgiZcb60pyQWfZX-8" target="tGRh8KgiZcb60pyQWfZX-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="440" as="sourcePoint" />
+            <mxPoint x="600" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tGRh8KgiZcb60pyQWfZX-19" value="Authentication" style="endArrow=classic;html=1;rounded=0;fontSize=12;dashed=1;" parent="1" source="tGRh8KgiZcb60pyQWfZX-9" target="tGRh8KgiZcb60pyQWfZX-5" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="720" y="440" as="sourcePoint" />
+            <mxPoint x="720" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A9sC4H_MTB_gO9JLWYli" name="Page-2">
+    <mxGraphModel dx="872" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="PKĹ([_rels/.rels��;�0D�bmO6P ��AHi�p��8Q�l�=.(����ۙ�y���(��YۢFV:5Y��ҟ7hꪣE����#�9�)�#b�#������)ˠ�9M�+�=�O���AS�pwA�r�jȦ&quot;〵���uתܭz���I��&#xa;�Q���&#xa;W3�PKO��&amp;lt;�PKĹ([word/_rels/document.xml.rels���&#xa;�0E%�ަu!&quot;M���R? &amp;amp;�6�T��Ċ���̽�0yyU#�����$�Z9���9��Py�#�����$F�gЇ`w�zѣ�&amp;gt;1uܴ�)��:j�8��:M7Խv���4�u�I��Ex��T��4��d�jf��PM��FL&#xa;u��O&#xa;�EćyD�n���⁸+�Ń�PK�����PKĹ([word/document.xml�Qs�F���ּЇ[��I�&#x9;����vx^k��-�V�]�_ߕ,�8C�&#x9;p==0KkI�u�+����^��H�iSƽ��~OP���4����˃qO8/K%sSR�[��=}�xy�L�(��&quot;l�t&#39;˸�y_��$�B���2&amp;lt;77��&amp;gt;���pi���Iȹ��&quot;?����a!u٫793jU?V͟s[?�J&amp;amp;aY�����a�&#39;r��ƽ�~=��zע���8�Wҥ&#xa;�V��o��i�Mεu�u�F�]��$��yܫ�k�z�KSzW��K��{g2�3��-e��m�$nc������fӉɍ�^R.�i�/�l�L�{�q�}���O]KuM�j�b�y��IN�6�o���1������n`�x�~&amp;amp;?R�ơZ~�&#39;妙��j�����&quot;jX)y�� n�%9��f^�J�G�@��L;^����o�?PK,1�q|�PKĹ([word/styles.xml&#xa;�A� �B�nAƐ��|�&amp;gt;��ڒ�n�����d23�����$&amp;amp;�ɀB&#xa;mޯ��J���3:8Q`]�n��E���v{k��Z����p�ŷ�uӝk&amp;lt;*���͘�.&amp;gt;(��PK�S�Ay�PKĹ([[Content_Types].xml���N�0�_�r�b&#xa;�P�+�)��xco��&#39;�sܽ=��@H�J{f���ٝ�cG�hch���9����ah�����㻮ٟ #k�����{)Q���� ����U�gdR���7u}+uB��&amp;lt;�w�#�jr�=��{�fp���j�Y-W)9�U!]��A��&#x9;���G�����_��B�{��D=y��ϘM�Q&quot;��;�)^ٰ�_i��`o*��#����LQq�&amp;amp;��[`9;��WX�n|��K�PK�bk��]PK-Ĺ([O��&amp;lt;�_rels/.relsPK-Ĺ([������word/_rels/document.xml.relsPK-Ĺ([pg?�O�?�word/document.xmlPK-Ĺ([,1�q|�m&#xa;word/numbering.xmlPK-Ĺ([�S�Ay�)word/styles.xmlPK-Ĺ([�bk��]�[Content_Types].xmlPK�" link="PKĹ([_rels/.rels��;�0D�bmO6P ��AHi�p��8Q�l�=.(����ۙ�y���(��YۢFV:5Y��ҟ7hꪣE����#�9�)�#b�#������)ˠ�9M�+�=�O���AS�pwA�r�jȦ&quot;〵���uתܭz���I��&#xa;�Q���&#xa;W3�PKO��&amp;lt;�PKĹ([word/_rels/document.xml.rels���&#xa;�0E%�ަu!&quot;M���R? &amp;amp;�6�T��Ċ���̽�0yyU#�����$�Z9���9��Py�#�����$F�gЇ`w�zѣ�&amp;gt;1uܴ�)��:j�8��:M7Խv���4�u�I��Ex��T��4��d�jf��PM��FL&#xa;u��O&#xa;�EćyD�n���⁸+�Ń�PK�����PKĹ([word/document.xml�Qs�F���ּЇ[��I�&#x9;����vx^k��-�V�]�_ߕ,�8C�&#x9;p==0KkI�u�+����^��H�iSƽ��~OP���4����˃qO8/K%sSR�[��=}�xy�L�(��&quot;l�t&#39;˸�y_��$�B���2&amp;lt;77��&amp;gt;���pi���Iȹ��&quot;?����a!u٫793jU?V͟s[?�J&amp;amp;aY�����a�&#39;r��ƽ�~=��zע���8�Wҥ&#xa;�V��o��i�Mεu�u�F�]��$��yܫ�k�z�KSzW��K��{g2�3��-e��m�$nc������fӉɍ�^R.�i�/�l�L�{�q�}���O]KuM�j�b�y��IN�6�o���1������n`�x�~&amp;amp;?R�ơZ~�&#39;妙��j�����&quot;jX)y�� n�%9��f^�J�G�@��L;^����o�?PK,1�q|�PKĹ([word/styles.xml&#xa;�A� �B�nAƐ��|�&amp;gt;��ڒ�n�����d23�����$&amp;amp;�ɀB&#xa;mޯ��J���3:8Q`]�n��E���v{k��Z����p�ŷ�uӝk&amp;lt;*���͘�.&amp;gt;(��PK�S�Ay�PKĹ([[Content_Types].xml���N�0�_�r�b&#xa;�P�+�)��xco��&#39;�sܽ=��@H�J{f���ٝ�cG�hch���9����ah�����㻮ٟ #k�����{)Q���� ����U�gdR���7u}+uB��&amp;lt;�w�#�jr�=��{�fp���j�Y-W)9�U!]��A��&#x9;���G�����_��B�{��D=y��ϘM�Q&quot;��;�)^ٰ�_i��`o*��#����LQq�&amp;amp;��[`9;��WX�n|��K�PK�bk��]PK-Ĺ([O��&amp;lt;�_rels/.relsPK-Ĺ([������word/_rels/document.xml.relsPK-Ĺ([pg?�O�?�word/document.xmlPK-Ĺ([,1�q|�m&#xa;word/numbering.xmlPK-Ĺ([�S�Ay�)word/styles.xmlPK-Ĺ([�bk��]�[Content_Types].xmlPK�" id="pMs-yROw2SefeK8zFKLI-1">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry width="560" height="430" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
